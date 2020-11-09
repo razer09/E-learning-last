@@ -14,12 +14,12 @@ class UserSeeder extends Seeder
         factory(App\User::class)->create([
             'name'      =>'acil',
             'email'     =>'benkheddaacile@gmail.com',
-            'password'  =>Hash::make('yesweCAN2017')
+            'password'  =>Hash::make('admin')
         ]);
         factory(App\User::class)->create([
             'name'      =>'kamale',
             'email'     =>'kamele@gmail.com',
-            'password'  =>Hash::make('yesweCAN2017')
+            'password'  =>Hash::make('admin')
         ]);
         factory(App\User::class, 4)->create();
     }
