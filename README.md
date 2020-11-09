@@ -7,8 +7,8 @@
 2. Install composer https://getcomposer.org/   
 3. Install Git https://git-scm.com/   
 4. Install Node https://nodejs.org/en/   
-5. Install Node https://nodejs.org/en/   
-6. Install Node https://nodejs.org/en/ 
+5. [Optional] Install cmder pour les commande https://cmder.net/   
+6. [Optional] Install Sublime  https://www.sublimetext.com/3 
 7. Exécuté la commandes dans cmder :     
     `composer global require laravel/installer`
 
