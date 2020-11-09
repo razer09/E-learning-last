@@ -1,0 +1,72 @@
+
+.tags{
+	.tag{
+		cursor: pointer;
+	}
+}
+
+.courses{
+	.rating{
+		top: 10px;
+		left: 10px;
+	}
+    .edit{
+        top: 10px;
+        right: 10px;
+    }
+    .delete{
+        top: 10px;
+        right: 50px;
+    }
+	.hours{
+		bottom: 10px;
+		right: 10px;
+	}
+	.card-footer{
+		font-size: 18px;
+	}
+}
+
+.settings{
+	.colors{
+		button{
+			display: inline-block;
+		    width: 50px;
+		    height: 50px;
+		    border-radius: 5px;
+		}
+	}
+}
+
+.single-course-page{
+	.header{
+		margin: 30px 0 0;
+		background: $linearColor;
+		border-radius: 10px 10px 0 0;
+		color: #FFF;
+		padding: 20px 15px 0 30px;
+		.price{
+			&:hover{
+				background: $firstColor !important;
+			}
+		}
+		p{
+			color: #FFF;
+		}
+		img{
+			margin-top: -20px;
+		}
+		.rating{
+			position: absolute;
+			top: 0;
+			right: 5%;
+		}
+		.infos{
+			.info{
+    			margin-bottom: 3em;
+				i{color: $secondColor;font-weight: bold;}
+			}
+
+		}
+	}
+}

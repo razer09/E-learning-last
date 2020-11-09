@@ -1,0 +1,23 @@
+.btn-orange{
+	background: $secondColor;
+	color: #FFF;
+	border: 1px solid $secondColor;
+	-webkit-transition: all .2s linear;
+    transition: all .2s linear;
+	&:hover{
+		background: #fff;
+		color: $secondColor;
+	}
+}
+
+.btn-orange-outline{
+	background: #fff;
+	color: $secondColor;
+	border: 1px solid $secondColor;
+	-webkit-transition: all .2s linear;
+    transition: all .2s linear;
+	&:hover{
+		background: $secondColor;
+		color: #fff;
+	}
+}

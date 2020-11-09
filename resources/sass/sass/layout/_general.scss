@@ -1,0 +1,28 @@
+html,body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+	background: #F7F7FF;
+    font-size: $fontSize;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+p{
+	color: #5d5d5d;
+    font-size: 18px !important;
+}
+
+main{
+	-webkit-transition: all .2s linear;
+    transition: all .2s linear;
+	margin-left: $sideWith;
+}

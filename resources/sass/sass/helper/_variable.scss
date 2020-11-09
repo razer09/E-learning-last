@@ -1,0 +1,77 @@
+
+$firstColor: var(--first-color);
+$secondColor: var(--second-color);
+$fontSize: var(--font-size);
+$video: var(--video);
+$image: var(--image);
+$text: var(--text);
+$recommendation: var(--recommendation);
+$statistique: var(--statistique);
+$reviews: var(--reviews);
+$linearColor: linear-gradient(129.1deg, #0053F0 -4.83%, rgba(34, 106, 244, 0.58) 168.82%);
+$sideWith: 18%;
+
+.bg-firstColor{
+    background: $firstColor
+}
+.video{
+    display: $video
+}
+.image{
+    display: $image
+}
+.text{
+    display: $text
+}
+.suggests{
+    display: $recommendation
+}
+.classes{
+    display: $statistique
+}
+.reviews{
+    display: $reviews
+}
+
+.text-firstColor{
+    color: $firstColor
+}
+
+.bg-secondColor{
+    background: $secondColor
+}
+
+.text-secondColor{
+    color: $secondColor
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+$extrasmall: '(max-width: 557px)';
+$mobile: '(max-width: 767px)';
+$tablette: '(max-width: 991px)';
+$descktop: '(min-width: 992px)';
+
+
+
+
+
+
+// body{
+// 	@media #{$tablette} {
+// 		background: blue;
+// 	}
+// }
+
+// body{
+// 	@media #{$mobile} {
+// 		background: green;
+// 	}
+// }
+
+// body{
+// 	@media #{$extrasmall} {
+// 		background: red;
+// 	}
+// }

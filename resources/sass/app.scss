@@ -1,0 +1,23 @@
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+// @import 'node_modules/bootstrap/scss/bootstrap';
+// @import 'node_modules/bootstrap-vue/src/index.scss';
+@import '~bootstrap';
+@import '~bootstrap-vue';
+@import "node_modules/font-awesome/scss/font-awesome";
+@import 'sass/helper/variable';
+@import 'sass/helper/mixins';
+
+@import 'sass/components/button';
+@import 'sass/components/animation';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:700&display=swap');
+
+
+@import 'sass/layout/general';
+@import 'sass/layout/header';
+@import 'sass/pages/dashboard';
+@import 'sass/pages/courses';
+@import 'sass/layout/footer';
+@import 'sass/components/plugins';

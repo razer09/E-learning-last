@@ -1,0 +1,12 @@
+@import 'sass/helper/variable';
+@import 'sass/helper/mixins';
+
+@import 'sass/components/button';
+@import 'sass/components/animation';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:700&display=swap');
+
+body{
+	direction: rtl;
+}
